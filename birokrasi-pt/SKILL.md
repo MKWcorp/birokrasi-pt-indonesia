@@ -1,5 +1,5 @@
 ---
-name: pt-perorangan
+name: birokrasi-pt
 description: >
   Panduan lapangan mendirikan PT Perorangan di Indonesia dan mengurus
   kewajiban pajaknya sampai tuntas — AHU, OSS/NIB, penapisan lingkungan
@@ -14,7 +14,7 @@ description: >
   business license, Indonesian tax filing, DUNS Indonesia.
 ---
 
-# PT Perorangan: pendirian sampai patuh pajak
+# Birokrasi PT — pendirian sampai patuh pajak
 
 Panduan ini disusun dari **satu pendirian PT Perorangan yang benar-benar
 dijalankan** — dari belum punya apa-apa sampai NIB terbit, NPWP aktif,
