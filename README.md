@@ -4,9 +4,13 @@ Panduan lapangan menembus birokrasi **PT Perorangan** di Indonesia —
 dari belum punya apa-apa sampai perusahaan benar-benar bisa beroperasi
 dan patuh pajak.
 
-Dikemas sebagai *skill* yang bisa dipakai Claude Code, Claude.ai, atau
-asisten AI lain. Ditulis dari **satu pendirian yang benar-benar
-dijalankan**, biaya resmi total **Rp 50.000**.
+Dikemas sebagai *skill* berbasis Markdown murni — **bekerja dengan CLI,
+IDE, dan asisten AI apa pun**: Claude Code, Cursor, Windsurf, Copilot,
+Codex, Gemini CLI, Cline, ChatGPT, atau model lokal. Bisa juga dibaca
+langsung tanpa AI sama sekali.
+
+Ditulis dari **satu pendirian yang benar-benar dijalankan**, biaya resmi
+total **Rp 50.000**.
 
 ## Yang bisa dikerjakan dengan skill ini
 
@@ -25,7 +29,8 @@ dijalankan**, biaya resmi total **Rp 50.000**.
 
 Setiap tahap punya berkas rujukannya sendiri. Asisten membaca `SKILL.md`
 dulu, lalu membuka berkas yang relevan dengan tahap penggunanya — bukan
-memuat semuanya sekaligus.
+memuat semuanya sekaligus. Struktur berjenjang ini menghemat konteks pada
+perkakas mana pun.
 
 ## Isi
 
@@ -42,24 +47,62 @@ birokrasi-pt-indonesia/
     └── jebakan.md                gejala → penyebab
 ```
 
-## Cara pakai
+## Cara pakai — bekerja dengan CLI, IDE, dan AI apa pun
 
-**Claude Code**
+Isinya **Markdown biasa**. Tidak ada kode, tidak ada dependensi, tidak ada
+yang perlu dijalankan. Perkakas apa pun yang bisa membaca teks bisa
+memakainya — Claude, ChatGPT, Gemini, Copilot, Cursor, atau model lokal.
 
 ```bash
 git clone https://github.com/MKWcorp/birokrasi-pt-indonesia.git
-mkdir -p ~/.claude/skills
-cp -r birokrasi-pt-indonesia/birokrasi-pt-indonesia ~/.claude/skills/birokrasi-pt-indonesia
 ```
 
-Lalu bertanya seperti biasa — *"bantu saya mendirikan PT Perorangan"*,
-*"NIB saya masih draft kenapa ya"*, *"cara aktivasi Coretax"*, *"daftar
-DUNS number"* — skill akan terpanggil sendiri.
+### Agen CLI & IDE
 
-**Claude.ai / ChatGPT / asisten lain**
+| Perkakas | Cara memasang |
+|---|---|
+| **Claude Code** | `cp -r birokrasi-pt-indonesia ~/.claude/skills/` |
+| **Claude Desktop / claude.ai** | unggah `SKILL.md` + isi `references/` sebagai lampiran, atau pasang sebagai Project Knowledge |
+| **Cursor** | salin isinya ke `.cursor/rules/birokrasi-pt.md` |
+| **Windsurf** | salin ke `.windsurfrules` atau folder aturan proyek |
+| **GitHub Copilot** | salin ke `.github/copilot-instructions.md` |
+| **Codex CLI / OpenAI** | salin ke `AGENTS.md` di akar proyek |
+| **Gemini CLI** | salin ke `GEMINI.md` di akar proyek |
+| **Cline / Roo Code** | tambahkan folder ini ke Custom Instructions |
+| **Continue.dev** | daftarkan sebagai konteks dokumen |
+| **Aider** | `aider --read birokrasi-pt-indonesia/SKILL.md` |
+| **OpenCode / Zed / lainnya** | tunjuk ke berkasnya lewat mekanisme konteks masing-masing |
 
-Unggah `birokrasi-pt-indonesia/SKILL.md` beserta berkas di `references/`
-sebagai lampiran, atau tempel isinya ke percakapan.
+### Antarmuka chat biasa
+
+ChatGPT, Gemini, Copilot Chat, Perplexity, DeepSeek, Qwen, atau model
+lokal lewat Ollama/LM Studio — **unggah berkasnya sebagai lampiran**, atau
+tempel isi `SKILL.md` ke awal percakapan lalu tempel berkas rujukan sesuai
+tahap yang sedang dikerjakan.
+
+### AI yang bisa membuka tautan
+
+Cukup berikan tautan mentahnya:
+
+```
+https://raw.githubusercontent.com/MKWcorp/birokrasi-pt-indonesia/main/birokrasi-pt-indonesia/SKILL.md
+https://raw.githubusercontent.com/MKWcorp/birokrasi-pt-indonesia/main/birokrasi-pt-indonesia/references/jebakan.md
+```
+
+Ganti `jebakan.md` dengan berkas rujukan lain sesuai kebutuhan.
+
+### Tanpa AI sama sekali
+
+Bisa dibaca langsung sebagai panduan biasa. Mulai dari `SKILL.md`, lalu
+buka berkas rujukan sesuai tahap Anda. Kalau sedang tersangkut, langsung
+ke `references/jebakan.md`.
+
+### Contoh pertanyaan yang memicunya
+
+*"bantu saya mendirikan PT Perorangan"* · *"NIB saya masih draft kenapa
+ya"* · *"cara aktivasi Coretax"* · *"KLU saya salah, bagaimana
+memperbaikinya"* · *"syarat buka rekening bank atas nama PT"* · *"cara
+daftar DUNS number"* · *"kapan lapor SPT Tahunan badan"*
 
 ## Yang membedakan dari panduan resmi
 
