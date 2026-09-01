@@ -1,4 +1,4 @@
-# Birokrasi PT — pendirian sampai patuh pajak
+# Birokrasi PT Indonesia — pendirian sampai patuh pajak
 
 Panduan lapangan untuk mendirikan **PT Perorangan** di Indonesia dan
 mengurus kewajiban pajaknya, dikemas sebagai *skill* yang bisa dipakai
@@ -26,12 +26,12 @@ di mana pun adalah **hal-hal yang menghentikan proses di tengah jalan**:
 - Jalur **D-U-N-S gratis** tampak mustahil untuk perusahaan baru, padahal
   D&B memberi keringanan bila ditanya
 
-Semuanya terdokumentasi di `birokrasi-pt/references/jebakan.md`.
+Semuanya terdokumentasi di `birokrasi-pt-indonesia/references/jebakan.md`.
 
 ## Isi
 
 ```
-birokrasi-pt/
+birokrasi-pt-indonesia/
 ├── SKILL.md                      alur besar, tenggat, prinsip kerja
 └── references/
     ├── 1-pendirian-ahu.md        SK Pengesahan + NPWP Badan
@@ -48,9 +48,9 @@ birokrasi-pt/
 **Claude Code**
 
 ```bash
-git clone https://github.com/MKWcorp/birokrasi-pt.git
+git clone https://github.com/MKWcorp/birokrasi-pt-indonesia.git
 mkdir -p ~/.claude/skills
-cp -r birokrasi-pt/birokrasi-pt ~/.claude/skills/birokrasi-pt
+cp -r birokrasi-pt-indonesia/birokrasi-pt-indonesia ~/.claude/skills/birokrasi-pt-indonesia
 ```
 
 Lalu cukup bertanya seperti biasa — *"bantu saya mendirikan PT Perorangan"*,
@@ -59,7 +59,7 @@ terpanggil sendiri.
 
 **Claude.ai / ChatGPT / asisten lain**
 
-Unggah `birokrasi-pt/SKILL.md` beserta berkas di `references/` sebagai
+Unggah `birokrasi-pt-indonesia/SKILL.md` beserta berkas di `references/` sebagai
 lampiran, atau tempel isinya ke dalam percakapan.
 
 ## Tiga tenggat yang menimbulkan denda

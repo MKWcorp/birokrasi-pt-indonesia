@@ -1,17 +1,40 @@
 ---
-name: birokrasi-pt
+name: birokrasi-pt-indonesia
 description: >
-  Panduan lapangan mendirikan PT Perorangan di Indonesia dan mengurus
-  kewajiban pajaknya sampai tuntas — AHU, OSS/NIB, penapisan lingkungan
-  Amdalnet, aktivasi Coretax DJP, KLU, Suket PPh Final 0,5%, setoran modal,
-  rekening bank badan usaha, dan nomor D-U-N-S. Ditulis dari satu proses
-  nyata dari nol sampai NIB terbit, lengkap dengan jebakan yang tidak
-  tertulis di panduan resmi. Gunakan saat pengguna menyebut: PT Perorangan,
-  mendirikan PT, PT sendirian, AHU, OSS, NIB, KBLI, KKPR, SPPL, Amdalnet,
-  Coretax, NPWP badan, KLU, SPT Tahunan Badan, PPh Final 0,5%, PP 55/2022,
-  Suket pajak, modal setor, rekening PT, atau DUNS number. Also matches
-  English: set up an Indonesian company, sole-founder PT, Indonesian
-  business license, Indonesian tax filing, DUNS Indonesia.
+  Menembus birokrasi pendirian dan kepatuhan PT Perorangan di INDONESIA,
+  dari nol sampai perusahaan benar-benar bisa beroperasi. Mencakup seluruh
+  rantai: pendaftaran di AHU Online (SK Pengesahan Kemenkumham + NPWP Badan
+  otomatis, PNBP Rp 50.000), perizinan berusaha di OSS RBA (kegiatan usaha,
+  KBLI 2025, KKPR, Sertifikat Standar, NIB), penapisan lingkungan di
+  Amdalnet Kementerian Lingkungan Hidup (SPPL/UKL-UPL) yang diam-diam
+  menahan NIB, aktivasi dan reset akun Coretax DJP berikut passphrase
+  sertifikat elektronik dan peran Wakil Wajib Pajak, koreksi KLU yang
+  sering salah, Surat Keterangan PPh Final 0,5% (PP 55/2022, layanan
+  AS.06-01), kewajiban lapor rutin dan pembukuan badan, setoran modal 25%
+  dengan tenggat 60 hari (PP 8/2021), pembukaan rekening bank atas nama PT,
+  sampai pendaftaran nomor D-U-N-S Dun & Bradstreet untuk pasar global.
+
+  Ditulis dari satu pendirian nyata yang dijalankan sampai tuntas, sehingga
+  memuat jebakan yang tidak tertulis di panduan resmi mana pun: NIB berstatus
+  Draft yang ternyata tertahan penapisan Amdalnet, akun Coretax yang sudah
+  dibuat otomatis sehingga harus direset bukan diaktivasi, passphrase
+  sertifikat elektronik yang memblokir semua permohonan tanpa pesan galat,
+  kasus Coretax yang terbentuk tapi formulirnya kosong, KLU yang terisi dari
+  KBLI bernomor terkecil, PT Perorangan yang tidak punya Akta Pendirian
+  notaris, dan jalur D-U-N-S gratis yang tetap terbuka untuk perusahaan baru.
+  Termasuk batas etis untuk asisten AI: dilarang mengarang data formulir
+  negara, membuatkan bukti fisik, mencentang pernyataan mandiri, atau
+  menekan tombol kirim tanpa izin pengguna.
+
+  Gunakan saat pengguna menyebut: PT Perorangan, mendirikan PT, PT sendirian,
+  perseroan perorangan, AHU, ahu.go.id, OSS, oss.go.id, NIB, KBLI, KKPR,
+  SPPL, Amdalnet, izin lingkungan, Coretax, coretaxdjp, NPWP badan, KLU,
+  SKT, SPT Tahunan Badan, PPh Final 0,5 persen, PP 55/2022, PP 23/2018,
+  Suket pajak, passphrase sertifikat elektronik, Wakil Wajib Pajak, modal
+  setor, PP 8/2021, rekening PT, stempel perusahaan, atau DUNS number.
+  Also matches English: register a company in Indonesia, Indonesian sole
+  founder PT, Indonesian business license, NIB, Indonesian tax compliance,
+  Coretax activation, DUNS number Indonesia.
 ---
 
 # Birokrasi PT — pendirian sampai patuh pajak

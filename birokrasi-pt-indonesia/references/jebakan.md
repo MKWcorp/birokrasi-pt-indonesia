@@ -19,6 +19,7 @@ Cari gejalanya.
 | KLU tercatat sebagai bidang yang salah | Sistem mengambil **KBLI bernomor terkecil**. Perbaiki lewat Perubahan Data. |
 | Bank/D&B minta "Akta Pendirian" | PT Perorangan tidak punya akta notaris. Yang ada **Surat Pernyataan Pendirian**. Tanyakan apakah diterima. |
 | Dropdown "cuma punya 7 pilihan" | **Panelnya bisa digulir.** Gulir dulu sebelum menyimpulkan. |
+| Kasus Coretax diam di **"Dibuat"** berhari-hari, Tanggal Akhir kosong | **Kasus terbentuk tapi formulirnya tidak pernah terisi.** Kalau prosesnya tidak pernah meminta isian/unggahan/tanda tangan, curigai. → `4-kewajiban-pajak.md` |
 | Jalur DUNS gratis "mustahil, minta laporan 3 tahun" | D&B memberi keringanan bila ditanya: laporan keuangan → **NIB**, AR data → **kosong**. |
 
 ## Pola perilaku situs pemerintah

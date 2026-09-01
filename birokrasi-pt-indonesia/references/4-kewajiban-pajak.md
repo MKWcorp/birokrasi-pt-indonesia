@@ -58,11 +58,37 @@ di arus kas tiap invoice.
 tahun pajak** (orang pribadi 7 tahun). Jam-nya berjalan sejak tahun pertama.
 
 ⚠️ Permohonan ini menuntut **peran Wakil** dan **passphrase sertifikat
-elektronik** — lihat `3-coretax.md`. Kalau kasus terbentuk tapi statusnya
-diam di **"Dibuat"** dan tidak muncul di *Permohonan Dalam Proses* maupun
-*Permohonan Telah Selesai*, kemungkinan formulirnya tidak pernah benar-benar
-tersimpan. Suruh cek ke Kring Pajak dengan nomor kasusnya sebelum mengajukan
-ulang — jangan sampai ada dua permohonan kembar.
+elektronik** — lihat `3-coretax.md`.
+
+### ⚠️ Jebakan: kasus terbentuk tapi isinya kosong
+
+Terjadi dalam kasus nyata dan sulit dikenali. Setelah memilih AS.06-01 dan
+menekan **Lanjut**, sistem langsung membuat nomor kasus dan melompat ke
+halaman ringkasan — **tanpa pernah menampilkan formulir permohonannya**.
+
+Terlihat seperti berhasil: ada nomor kasus, ada prioritas "Tinggi", ada
+"Penyelesaian yang diharapkan". Padahal tidak ada apa pun yang diisi,
+diunggah, atau ditandatangani.
+
+**Ciri kasus kosong** (periksa di *Portal Saya → Kasus Saya → Case Overview*):
+
+| Kolom | Kasus kosong | Permohonan yang sehat |
+|---|---|---|
+| Status / Portal Status | diam di **"Dibuat"** berhari-hari | berubah, lalu selesai |
+| **Tanggal Akhir** | **kosong** | terisi saat selesai |
+| **Tindakan Terakhir** | **kosong** | ada jejak |
+| Keterangan | hanya *"Kasus Created for … Form …"* | lebih spesifik |
+| Muncul di *Permohonan Dalam Proses* / *Telah Selesai* | **tidak** | ya |
+
+Pembanding yang berguna: permohonan **perubahan KLU** melewati formulir
+lengkap, unggahan dokumen, pernyataan, dan tombol Simpan — lalu terbit
+**keesokan harinya** berikut surat resmi. Kalau sebuah permohonan tidak
+pernah meminta satu pun dari itu, curigai.
+
+**Jangan langsung mengajukan ulang.** Kalau yang lama masih hidup di sistem
+internal, hasilnya dua permohonan kembar yang justru memperlambat. Telepon
+**Kring Pajak 1500200** dengan nomor kasusnya dan tanyakan: apakah
+permohonan lengkap, dan bagaimana membatalkannya bila tidak.
 
 ## Bisa diotomatiskan?
 
