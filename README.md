@@ -1,32 +1,31 @@
-# Birokrasi PT Indonesia — pendirian sampai patuh pajak
+# Birokrasi PT Indonesia
 
-Panduan lapangan untuk mendirikan **PT Perorangan** di Indonesia dan
-mengurus kewajiban pajaknya, dikemas sebagai *skill* yang bisa dipakai
-Claude Code, Claude.ai, atau asisten AI lain.
+Panduan lapangan menembus birokrasi **PT Perorangan** di Indonesia —
+dari belum punya apa-apa sampai perusahaan benar-benar bisa beroperasi
+dan patuh pajak.
 
-Ditulis dari **satu pendirian yang benar-benar dijalankan** — dari belum
-punya apa-apa sampai NIB terbit, NPWP aktif, akun Coretax hidup, KLU
-diperbaiki, dan permohonan D-U-N-S terkirim. Biaya resmi total:
-**Rp 50.000**.
+Dikemas sebagai *skill* yang bisa dipakai Claude Code, Claude.ai, atau
+asisten AI lain. Ditulis dari **satu pendirian yang benar-benar
+dijalankan**, biaya resmi total **Rp 50.000**.
 
-## Kenapa ini ada
+## Yang bisa dikerjakan dengan skill ini
 
-Situs resmi sudah menjelaskan urutan langkahnya. Yang tidak dijelaskan
-di mana pun adalah **hal-hal yang menghentikan proses di tengah jalan**:
+| Urusan | Hasil |
+|---|---|
+| **Mendirikan PT Perorangan** di AHU Online | SK Pengesahan Kemenkumham + NPWP Badan terbit otomatis |
+| **Mengurus izin berusaha** di OSS RBA | Kegiatan usaha, KBLI 2025, KKPR, Sertifikat Standar, **NIB** |
+| **Penapisan lingkungan** di Amdalnet | SPPL — syarat tersembunyi yang menahan NIB |
+| **Mengaktifkan akun Coretax DJP** | akses akun badan & pribadi, passphrase sertifikat elektronik |
+| **Memperbaiki KLU** yang tercatat salah | Surat Pemberitahuan Perubahan Data |
+| **Mengajukan Suket PPh Final 0,5%** | layanan AS.06-01 (PP 55/2022) |
+| **Memahami kewajiban lapor & pembukuan** | SPT Tahunan, PPh masa, pembukuan badan |
+| **Setoran modal 25%** | lapor ke AHU sebelum tenggat 60 hari |
+| **Membuka rekening bank atas nama PT** | dokumen, urutan, jebakan setoran awal |
+| **Mendaftar nomor D-U-N-S** | Dun & Bradstreet, termasuk jalur gratis |
 
-- NIB berstatus *Draft* tanpa penjelasan — ternyata penghambatnya
-  **penapisan lingkungan di Amdalnet**, bukan antrean petugas
-- Coretax menolak aktivasi karena **akunnya sudah dibuat otomatis**;
-  yang dibutuhkan reset kata sandi, bukan aktivasi
-- Semua permohonan layanan pajak diam tanpa pesan galat karena
-  **passphrase sertifikat elektronik** belum ditetapkan
-- **KLU tercatat salah** karena sistem mengambil KBLI bernomor terkecil
-- PT Perorangan **tidak punya Akta Pendirian notaris**, dan hampir semua
-  formulir bank meminta dokumen itu
-- Jalur **D-U-N-S gratis** tampak mustahil untuk perusahaan baru, padahal
-  D&B memberi keringanan bila ditanya
-
-Semuanya terdokumentasi di `birokrasi-pt-indonesia/references/jebakan.md`.
+Setiap tahap punya berkas rujukannya sendiri. Asisten membaca `SKILL.md`
+dulu, lalu membuka berkas yang relevan dengan tahap penggunanya — bukan
+memuat semuanya sekaligus.
 
 ## Isi
 
@@ -40,7 +39,7 @@ birokrasi-pt-indonesia/
     ├── 4-kewajiban-pajak.md      SPT, pembukuan, PPh Final 0,5%
     ├── 5-rekening-bank.md        rekening PT + setoran modal 25%
     ├── 6-duns.md                 nomor D-U-N-S untuk pasar global
-    └── jebakan.md                gejala → penyebab, batas yang tak boleh dilewati
+    └── jebakan.md                gejala → penyebab
 ```
 
 ## Cara pakai
@@ -53,14 +52,25 @@ mkdir -p ~/.claude/skills
 cp -r birokrasi-pt-indonesia/birokrasi-pt-indonesia ~/.claude/skills/birokrasi-pt-indonesia
 ```
 
-Lalu cukup bertanya seperti biasa — *"bantu saya mendirikan PT Perorangan"*,
-*"NIB saya masih draft kenapa ya"*, *"cara aktivasi Coretax"* — skill akan
-terpanggil sendiri.
+Lalu bertanya seperti biasa — *"bantu saya mendirikan PT Perorangan"*,
+*"NIB saya masih draft kenapa ya"*, *"cara aktivasi Coretax"*, *"daftar
+DUNS number"* — skill akan terpanggil sendiri.
 
 **Claude.ai / ChatGPT / asisten lain**
 
-Unggah `birokrasi-pt-indonesia/SKILL.md` beserta berkas di `references/` sebagai
-lampiran, atau tempel isinya ke dalam percakapan.
+Unggah `birokrasi-pt-indonesia/SKILL.md` beserta berkas di `references/`
+sebagai lampiran, atau tempel isinya ke percakapan.
+
+## Yang membedakan dari panduan resmi
+
+Urutan langkah sudah ada di situs pemerintah. Yang tidak ada di mana pun
+adalah **hal yang menghentikan proses di tengah jalan** — dan itu isi
+`references/jebakan.md`: gejala yang terlihat di layar, dipetakan ke
+penyebab sebenarnya.
+
+Contohnya, NIB yang berstatus *Draft* tanpa penjelasan ternyata tertahan
+penapisan lingkungan, bukan antrean petugas. Ada belasan pola serupa,
+semuanya ditemukan dengan cara tersangkut lebih dulu.
 
 ## Tiga tenggat yang menimbulkan denda
 
@@ -70,25 +80,24 @@ lampiran, atau tempel isinya ke dalam percakapan.
 | **SPT Tahunan Badan** | **30 April tiap tahun** | **denda Rp 1.000.000, walau nihil** |
 | Setor PPh Final bulanan | tgl 15 bulan berikutnya | bunga keterlambatan |
 
-## Batasan penting
+## Batasan
 
 Panduan ini **bukan nasihat hukum atau perpajakan profesional.** Isinya
 pengalaman lapangan satu perusahaan, dan aturan bisa berubah.
 
-Untuk hal yang ada dendanya, konfirmasi ke sumbernya:
-**Kring Pajak 1500200**, KPP terdaftar, atau konsultan pajak.
+Untuk hal yang ada dendanya, konfirmasi ke sumbernya: **Kring Pajak
+1500200**, KPP terdaftar, atau konsultan pajak. Bagian yang tidak
+sepenuhnya pasti sudah ditandai di dalam berkasnya.
 
-Bagian yang tidak sepenuhnya pasti sudah ditandai di dalam berkasnya.
-Kalau menemukan yang sudah tidak berlaku, kirim *issue* atau *pull request* —
+Menemukan yang sudah tidak berlaku? Kirim *issue* atau *pull request* —
 skill ini memang dimaksudkan untuk terus diperbarui.
 
-## Prinsip yang ditegakkan skill ini
+## Pagar untuk asisten AI
 
-Untuk asisten AI yang memakainya, ada batas yang ditulis tegas di dalam:
-jangan mengarang data untuk formulir negara, jangan membuatkan bukti fisik,
-jangan mencentang pernyataan mandiri atau menekan tombol kirim tanpa izin
-tegas, dan jangan mengetik kata sandi, OTP, CAPTCHA, atau melakukan
-pembayaran.
+Ditulis tegas di dalam skill: jangan mengarang data untuk formulir negara,
+jangan membuatkan bukti fisik, jangan mencentang pernyataan mandiri atau
+menekan tombol kirim tanpa izin tegas, dan jangan mengetik kata sandi, OTP,
+CAPTCHA, membuat akun, atau melakukan pembayaran.
 
 Semua itu tanggung jawab pemilik perusahaan, bukan asistennya.
 
